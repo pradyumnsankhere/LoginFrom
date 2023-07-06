@@ -256,3 +256,86 @@ class JobApp extends React.Component<any, JobApplicationState> {
 }
 
 export default withStyles(styles)(JobApp);
+
+
+// import { Box, Card, Container, Typography, createStyles, withStyles, WithStyles, Badge, Avatar, Button } from '@material-ui/core';
+// import React, { Component } from 'react';
+
+// const styles = createStyles({
+//   mainbox: {
+//     marginTop: '50px',
+//     width: '100%',
+//     height: '700px',
+//     background: 'lightgrey'
+//   },
+//   avatar: {
+//     backgroundColor: '#3f51b5', // Customize the background color of the outer circle
+//     color: '#fff', // Customize the text color of the numbering
+//     fontWeight: 'bold', // Customize the font weight of the numbering
+//   },
+// });
+
+// interface HotelmgmtProps extends WithStyles<typeof styles> {}
+
+// class Hotelmgmt extends Component<HotelmgmtProps> {
+//   render() {
+//     const { classes } = this.props;
+//     const number = 1;  
+//     return (
+//       <Container maxWidth="md" className={classes.mainbox}>
+//         <Box>
+//           <Typography>Hotel Management System</Typography>
+//           <p>Hourly-public</p>
+//         </Box>
+
+//         <Box>
+//           <Typography>Project Description</Typography>
+//           <p>
+//             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A deserunt eligendi magnam eaque laboriosam,
+//             quisquam fugiat qui, earum pariatur ducimus mollitia at voluptates quidem laudantium quia ab voluptatum
+//             laborum esse perspiciatis harum consequatur officia veritatis aliquid? Itaque eligendi, architecto
+//             perferendis molestiae rerum, quae porro modi voluptatibus veniam possimus deserunt exercitationem quia.
+//             Quibusdam sunt aliquid temporibus impedit beatae eius iusto. Ad cupiditate harum dolorem laudantium
+//             perferendis blanditiis quis enim vel voluptatibus error fuga ipsa amet iste suscipit, aliquid veniam magni
+//             perspiciatis nihil quo atque praesentium, quos officia! Ipsa, facilis laudantium pariatur ut minima adipisci
+//             totam! Et aut deleniti repudiandae neque tempore!
+//           </p>
+//         </Box>
+        
+//         <Box>
+//           <Typography>Project Time:</Typography>
+//           <Badge  color="secondary">
+//             <Avatar className={classes.avatar}>{number}</Avatar>
+//             less than  30hrs/week
+//             Hourly
+//           </Badge>
+//           <Badge  color="secondary">
+//             <Avatar className={classes.avatar}>{number}</Avatar>
+//             1 to 3 months
+//              project lenght
+//           </Badge>
+//           <Badge  color="secondary">
+//             <Avatar className={classes.avatar}>{number}</Avatar>
+//             Intermediate
+//             I am looking  for mix experience and value
+//           </Badge>
+//         </Box>
+//         <Box>
+//             <Typography>Activity  on this  job</Typography>
+//             <p>Proposales</p>   
+//             <p>Last viewed by the client</p>
+//             <p>Invite sends</p>
+//             <p>Unanswered invites</p>
+//         </Box>
+//         <Box>
+//             <Typography>Skills  and expertise</Typography>
+//             <Button>PHP</Button>
+//             <Button>SQL</Button>
+//             <Button>Android</Button>
+//         </Box>
+//       </Container>
+//     );
+//   }
+// }
+
+// export default withStyles(styles)(Hotelmgmt);
