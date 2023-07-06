@@ -339,3 +339,29 @@ export default withStyles(styles)(JobApp);
 // }
 
 // export default withStyles(styles)(Hotelmgmt);
+
+/* <Box>
+        <Typography className={classes.fontTypo} variant="h6">Skills and expertise:</Typography>
+        <Button
+          className={classes.skillButton}
+          variant="contained"
+          color="primary"
+        >
+          PHP
+        </Button>
+        <Button
+          className={classes.skillButton}
+          variant="contained"
+          color="primary"
+        >
+          SQL
+        </Button>
+        <Button
+          className={classes.skillButton}
+          variant="contained"
+          color="primary"
+        >
+          Android
+        </Button>
+            +2
+      </Box> */
